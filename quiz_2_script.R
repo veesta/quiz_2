@@ -28,8 +28,8 @@ extraversion_items <- select(bfi_data, E1, E2, E3, E4, E5)
 
 
 agreeable_items <- mutate(agreeable_items,A1=7-A1)
-extraversion <- mutate(extraversion_items,E1=7-E1)
-extraversion <- mutate(extraversion_items,E2=7-E2)
+extraversion_items <- mutate(extraversion_items,E1=7-E1)
+extraversion_items <- mutate(extraversion_items,E2=7-E2)
 
 
 #obtain a scaled score - calc mean for each person based on items 
